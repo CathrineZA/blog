@@ -50,7 +50,7 @@ if(array_filter($errors)){
 
 			// save to db and check
 			if(mysqli_query($conn, $sql)){
-				// success
+				// success  
 				header('Location: index.php');
 			} else {
 				echo 'query error: '. mysqli_error($conn);
@@ -58,7 +58,7 @@ if(array_filter($errors)){
     //echo 'form valid';
     
 }
-} /
+} 
 //end of post check
 
 
